@@ -16,7 +16,7 @@ Feature: Expense
       |Business purpose|
       |Project name|
 
-  @MB-006
+  @MB-006 @run
   Scenario: Adding Expense
     And I am on the "Expenses" page
     And I can add expense
